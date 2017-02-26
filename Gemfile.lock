@@ -8,6 +8,15 @@ GIT
       sprockets (~> 4.x)
       sprockets-rails (< 4.0)
 
+GIT
+  remote: https://github.com/rails/webpacker.git
+  revision: e01eda8a18e6267740cd8722dc754bb188e674e8
+  specs:
+    webpacker (1.0)
+      activesupport (>= 5.0)
+      multi_json (~> 1.2)
+      railties (>= 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +200,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+  webpacker!
 
 BUNDLED WITH
    1.14.3
