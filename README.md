@@ -1,24 +1,8 @@
-# README
+# rails-vue-sandbox
+Sample app for Rails 5.1 x Vue.js
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Thanks to:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Introducing Webpacker – Statuscode – Medium](https://medium.com/statuscode/introducing-webpacker-7136d66cddfb#.djslwv12s)
+- [Rails 5\.1のSystemTestCaseを試してみた \- Qiita](http://qiita.com/jnchito/items/4d01f2faa1deee36bd27)
+- http://jsfiddle.net/yyx990803/23qze30k/
