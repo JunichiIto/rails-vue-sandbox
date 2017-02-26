@@ -1,7 +1,16 @@
 {
   "name": "rails-vue-sandbox",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.15.3",
+    "css-loader": "^0.26.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "url-loader": "^0.5.8",
+    "vue": "2.1.10",
+    "vue-loader": "^11.1.3",
+    "vue-template-compiler": "^2.2.1"
+  },
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",

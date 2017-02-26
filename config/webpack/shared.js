@@ -22,6 +22,13 @@ config = {
 
   module: {
     rules: [
+      {
+        test: /.vue$/, loader: 'vue-loader',
+        options: {
+          loaders: { 'scss': 'vue-style-loader!css-loader!sass-loader', 'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'}
+        }
+      },
+      { test: /.png$/, loader: 'url-loader?mimetype=image/png'},
       { test: /\.coffee(\.erb)?$/, loader: "coffee-loader" },
       {
         test: /\.js(\.erb)?$/,
@@ -50,6 +57,7 @@ config = {
   ],
 
   resolve: {
+    alias: { 'vue$':'vue/dist/vue.common.js' },
     extensions: [ '.js', '.coffee' ],
     modules: [
       path.resolve('app/javascript'),
